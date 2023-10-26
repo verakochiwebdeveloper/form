@@ -1,0 +1,113 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.--just-space {
+  justify-content: space-between;
+}
+
+.--just-center {
+  justify-content: center;
+}
+
+.--just-end {
+  justify-content: flex-end;
+}
+
+.--align-str {
+  align-items: stretch;
+}
+
+.--align-center {
+  align-items: center;
+}
+
+.--align-end {
+  align-items: flex-end;
+}
+
+.--dir-col {
+  flex-direction: column;
+}
+
+html {
+  font-size: 16px;
+}
+
+html,
+body {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  background: #e1e1e1;
+}
+
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.--raleway-l-20 {
+  font-family: "Raleway";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.--raleway-l-16 {
+  color: #252525;
+  font-family: "Raleway";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  /*знаю что по default это свойство прописано*/
+  text-decoration-line: underline;
+}
+
+.authorization__btn {
+	background: #E0BEA2;
+	color: #fff;
+	border: none;
+	padding: 16px 81px;
+	margin-top: 20px;
+	text-transform: uppercase;
+	/*костыль)*/
+	text-decoration: none;
+	width: 400px;
+	cursor: pointer;
+}
+
+.authorization__btn:hover {
+	background: #C8AA92;
+	transition: ease-in 0.3s;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="дз по формам">
+    <meta name="keywords" content="формы">
+    <title>Форма 1</title>
+    <!--favicon-->
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <!--Шрифты-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap" rel="stylesheet">
+    <!--normalize css-->
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <!--Глобальные стили-->
+    <link rel="stylesheet" href="css/global.css"/>
+    <!--Стили страницы-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Адаптив-->
+    <link rel="stylesheet" href="css/media.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="containner">
+        <div class="popup">
+          <form action="#" class="authorization">
+            <a href="#" class="popup__close">
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                <g clip-path="url(#clip0_1_4)">
+                  <path d="M12.4996 9.72266L22.2223 0L24.9996 2.77734L15.277 12.5L24.9996 22.2227L22.2223 25L12.4996 15.2773L2.77698 25L-0.000366211 22.2227L9.72229 12.5L-0.000366211 2.77734L2.77698 0L12.4996 9.72266Z" fill="#E0BEA2"/>
+                </g>
+                <defs>
+                  <clipPath id="clip0_1_4">
+                    <rect width="25" height="25" fill="white"/>
+                  </clipPath>
+                </defs>
+              </svg>
+            </a>
+            <p class="authorization__title --raleway-l-20">Авторизация</p>
+            <input type="text" name="name" id="user-email" class="autorization__login --raleway-l-20" placeholder="Ваш e-mail*" required >
+            <input type="password" name="password" id="user-password" class="autorization__password --password-js --raleway-l-20" placeholder="Ваш пароль*" required>
+            <button class="autorization__password-visible --visable-js"></button>
+            <div class="authorization__links flex --just-space">
+              <a href="" class="authorization__links-recovery --raleway-l-16">Забыли пароль?</a>
+              <a href="" class="authorization__links-signup --raleway-l-16">Нет аккаунта?</a>
+            </div>
+            <button type="submit" class=" --raleway-l-16 authorization__btn">Войти</button>
+          </form>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section></section>
+    </main>
+    <script src="js/main.js"></script>
+  </body>
+</html>

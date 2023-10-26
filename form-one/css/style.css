@@ -1,0 +1,65 @@
+.popup__close {
+    position: absolute;
+    display: block;
+    z-index: 7;
+    top: 100;
+    right: 50px;
+}
+.authorization {
+  background: #fff;
+  width: 600px;
+  padding: 50px 100px;
+  position: relative;
+  text-align: center;
+  top: 250px;
+  left: 35%;
+  display: block;
+}
+
+.authorization__title {
+  color: #252525;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.autorization__login,
+.autorization__password {
+  color: rgba(37, 37, 37, 0.5);
+  font-family: "Raleway";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  width: 400px;
+  height: 50px;
+  padding: 15px 19px;
+  margin-bottom: 20px;
+  border: 0.5px solid #252525;
+}
+
+.autorization__login:focus,
+.autorization__password:focus {
+    border: 0.5px solid #C8AA92;
+}
+
+.autorization__password {
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+.autorization__password-visible {
+    background: url(../svg/eye-active.svg);
+    border: none;
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    right: 130px;
+    cursor: pointer;
+    width: 19px;
+    height: 19px;
+}
+
+.--visible-active {
+    background: url(../svg/eye-close.svg);
+}
