@@ -34,12 +34,13 @@
   height: 50px;
   padding: 15px 19px;
   margin-bottom: 20px;
-  border: 0.5px solid #252525;
+  
 }
 
 .autorization__login:focus,
 .autorization__password:focus {
-    border: 0.5px solid #C8AA92;
+    outline: solid 1px #C8AA92;
+    border: none;
 }
 
 .autorization__password {

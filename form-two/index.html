@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>синий синий форм</title>
+    <!--favicon-->
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <!--Шрифты-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <!--normalize css-->
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <!--Глобальные стили-->
+    <link rel="stylesheet" href="css/global.css"/>
+    <!--Стили страницы-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Адаптив-->
+    <link rel="stylesheet" href="css/media.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__popup">
+          <h4 class="header__popup-title">
+            Записаться на бесплатный урок
+          </h4>
+          <form action="#" class="poup__form">
+            <input type="text" name="user-name" id="poup__form-name" class="form__name --lato-r-16" placeholder="Имя*" required>
+            <input type="email" name="user-email" id="poup__form-email" class="form__email --lato-r-16" placeholder="Email*" >
+            <input type="tel" name="user-tel" id="poup__form-tel" class="form__tel --lato-r-16" placeholder="Имя*" required>
+            <fieldset class="popup__form-massanger">
+              <h6 class="massanger__title --lato-r-16">
+                Удобный мессенджер для связи:
+              </h6>
+              <label for="id-telegram" class="massanger__label --lato-r-16">
+                <input type="radio" name="radio__btn" class="massanger__radio" id="id-telegram" value="blue" checked>
+                <span class="--radio-custom"></span>
+                Telegram
+              </label>
+              <label for="id-whatsapp" class="massanger__label --lato-r-16">
+                <input type="radio" name="radio__btn" class="massanger__radio" id="id-whatsapp" value="green">
+                <span class="--radio-custom"></span>
+                WhatsApp
+              </label>
+            </fieldset>
+            <button type="submit" class="popup__form-btn">
+              Записаться
+            </button>
+          </form>
+        </div>
+      </div>
+    </header>
+    <main>
+      
+    </main>
+  </body>
+</html>

@@ -1,0 +1,103 @@
+.header__popup {
+  border: 2px solid #000;
+  background: #92ccfe;
+  box-shadow: 4px 4px 0px 0px #000;
+  margin: 50% auto;
+  width: 1000px;
+  padding: 30px 0 50px;
+}
+
+.header__popup-title {
+  text-align: center;
+  color: #000;
+  font-family: "Lato";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.poup__form {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.form__name,
+.form__email,
+.form__tel {
+  display: block;
+  width: 325px;
+  padding: 16px 30px;
+  margin: 14px auto;
+  border: 2px solid #000;
+  background: #fff;
+  box-shadow: 4px 4px 0px 0px #000;
+}
+
+.form__name:focus,
+.form__email:focus,
+.form__tel:focus {
+  box-shadow: 4px 4px 4px 0px 0px #808000;
+  outline-color: #808000;
+}
+
+.popup__form-massanger {
+  border: none;
+  display: flex;
+  margin: 0 auto;
+}
+
+.massanger__label {
+  margin-left: 50px;
+}
+
+.massanger__radio {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  padding-left: 20px;
+}
+
+.--radio-custom {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: solid 1px #808000;
+  margin-left: -25px;
+  border-radius: 50%;
+  cursor: pointer;
+  outline-color: yellow;
+}
+
+.massanger__radio:checked + .--radio-custom::before {
+  content: " ";
+  width: 14px;
+  height: 14px;
+  background: #808000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.massanger__radio:focus + .--radio-custom {
+  box-shadow: rgb(128, 128, 2);
+}
+
+.popup__form-btn {
+  border: 2px solid #000;
+  background: var(--yellow, #ffe249);
+  box-shadow: 4px 4px 0px 0px #000;
+  width: 228px;
+  height: 62px;
+  margin: 22px auto;
+}
+
+.popup__form-btn:hover {
+    background: #808000;
+}
