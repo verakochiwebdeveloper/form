@@ -11,9 +11,9 @@
   padding: 50px 100px;
   position: relative;
   text-align: center;
-  top: 250px;
-  left: 35%;
+  margin: 250px auto;
   display: block;
+  
 }
 
 .authorization__title {
